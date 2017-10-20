@@ -1,0 +1,4 @@
+FROM ubuntu
+VOLUME /MountPointDemo
+RUN date > /MountPointDemo/date.txt
+RUN cat /MountPointDemo/date.txt
